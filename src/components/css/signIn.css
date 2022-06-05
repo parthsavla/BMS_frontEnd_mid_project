@@ -1,0 +1,33 @@
+.sign-in{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12.5%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgba(36, 35, 35, 0.938);
+    border-radius: 150px;
+}
+.sign-in>form{
+    display: flex;
+    flex-direction: column;
+
+}
+.sign-in>form>input {
+    margin: 4%;
+}
+.sign-in>form>button{
+    margin: 4%;
+    width: 70%;
+    
+}
+
+
+@media only screen and (max-width: 600px){
+    .sign-in{
+        width: 75%;
+    }
+    h1{
+        font-size: 12px;
+    }
+}

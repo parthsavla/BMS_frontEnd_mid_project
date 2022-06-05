@@ -1,0 +1,64 @@
+.sign-up{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.527);
+    transition: 0.3s;
+    background-color: #3f51b58f;
+    padding: 2em;
+    border-radius: 15px;
+}
+.sign-up>form{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up>form>input{
+    margin: auto;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+
+    width: 70%;
+    
+}
+.sign-up>form>button{
+    margin: auto;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+
+    width: 40%;
+    
+}
+.dev-support{
+    margin: auto;
+    text-align: center;
+}
+.dev-support>form{
+    display: flex;
+    flex-direction: column;
+}
+.dev-support>form>input{
+    margin: auto;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+
+    width: 70%;
+    
+}
+.dev-support>form>button{
+    margin: auto;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+
+    width: 40%;
+    
+}
+.dropdwn{
+    margin-right: 35px;
+}
+.dropdwn-selection{
+    width: 40%;
+}
+.nulStyle{
+    border: double 3px red;
+}

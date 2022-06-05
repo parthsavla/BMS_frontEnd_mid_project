@@ -1,0 +1,30 @@
+.sign-in{
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5.5%;
+  border: salmon solid 1px;
+  text-align: center;
+
+}
+.sign-in>form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.sign-in>form>input {
+  margin: 4%;
+}
+.sign-in>form>button{
+  margin: auto;
+  width: 70%;
+}
+
+@media only screen and (max-width: 600px){
+  .sign-in{
+      width: 75%;
+  }
+  h1{
+      font-size: 12px;
+  }
+}
